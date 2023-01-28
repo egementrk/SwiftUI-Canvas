@@ -14,6 +14,11 @@
 		885AFA9C298501DA00B5A562 /* SwiftUICanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885AFA9B298501DA00B5A562 /* SwiftUICanvasTests.swift */; };
 		885AFAA6298501DA00B5A562 /* SwiftUICanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885AFAA5298501DA00B5A562 /* SwiftUICanvasUITests.swift */; };
 		885AFAA8298501DA00B5A562 /* SwiftUICanvasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885AFAA7298501DA00B5A562 /* SwiftUICanvasUITestsLaunchTests.swift */; };
+		885AFAB52985020400B5A562 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885AFAB42985020400B5A562 /* DrawingView.swift */; };
+		885AFAB72985093F00B5A562 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885AFAB62985093F00B5A562 /* Line.swift */; };
+		885AFABB298513F900B5A562 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885AFABA298513F900B5A562 /* ColorPickerView.swift */; };
+		889D108629851B6F00F6AB87 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D108529851B6F00F6AB87 /* SliderView.swift */; };
+		889D108829851C7D00F6AB87 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D108729851C7D00F6AB87 /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		885AFAA1298501DA00B5A562 /* SwiftUICanvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICanvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		885AFAA5298501DA00B5A562 /* SwiftUICanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICanvasUITests.swift; sourceTree = "<group>"; };
 		885AFAA7298501DA00B5A562 /* SwiftUICanvasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICanvasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		885AFAB42985020400B5A562 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		885AFAB62985093F00B5A562 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		885AFABA298513F900B5A562 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		889D108529851B6F00F6AB87 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		889D108729851C7D00F6AB87 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,11 @@
 		885AFA89298501D700B5A562 /* SwiftUICanvas */ = {
 			isa = PBXGroup;
 			children = (
+				889D108429851B5E00F6AB87 /* CustomViews */,
 				885AFA8A298501D700B5A562 /* SwiftUICanvasApp.swift */,
 				885AFA8C298501D700B5A562 /* ContentView.swift */,
+				885AFAB42985020400B5A562 /* DrawingView.swift */,
+				885AFAB62985093F00B5A562 /* Line.swift */,
 				885AFA8E298501D900B5A562 /* Assets.xcassets */,
 				885AFA90298501D900B5A562 /* Preview Content */,
 			);
@@ -125,6 +138,16 @@
 				885AFAA7298501DA00B5A562 /* SwiftUICanvasUITestsLaunchTests.swift */,
 			);
 			path = SwiftUICanvasUITests;
+			sourceTree = "<group>";
+		};
+		889D108429851B5E00F6AB87 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				885AFABA298513F900B5A562 /* ColorPickerView.swift */,
+				889D108529851B6F00F6AB87 /* SliderView.swift */,
+				889D108729851C7D00F6AB87 /* CanvasView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				885AFAB52985020400B5A562 /* DrawingView.swift in Sources */,
+				889D108829851C7D00F6AB87 /* CanvasView.swift in Sources */,
+				885AFAB72985093F00B5A562 /* Line.swift in Sources */,
+				885AFABB298513F900B5A562 /* ColorPickerView.swift in Sources */,
+				889D108629851B6F00F6AB87 /* SliderView.swift in Sources */,
 				885AFA8D298501D700B5A562 /* ContentView.swift in Sources */,
 				885AFA8B298501D700B5A562 /* SwiftUICanvasApp.swift in Sources */,
 			);
